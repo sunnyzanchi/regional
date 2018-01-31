@@ -1,0 +1,23 @@
+{
+  "name": "angleregion",
+  "version": "0.1.0",
+  "description": "Given two points and a range of regions, determines which region the second point is in with relation to the first",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ./",
+    "test": "ava"
+  },
+  "keywords": [
+    "math",
+    "angle",
+    "point"
+  ],
+  "author": "Zanchi",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "eslint": "^4.16.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0"
+  }
+}
