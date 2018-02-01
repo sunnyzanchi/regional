@@ -1,5 +1,5 @@
 {
-  "name": "angleregion",
+  "name": "regional",
   "version": "0.1.0",
   "description": "Given two points and a range of regions, determines which region the second point is in with relation to the first",
   "main": "index.js",
@@ -12,6 +12,10 @@
     "angle",
     "point"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zanchi/regional.git"
+  },
   "author": "Zanchi",
   "license": "MIT",
   "devDependencies": {
