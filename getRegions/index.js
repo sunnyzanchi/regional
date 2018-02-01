@@ -27,6 +27,7 @@
  *  ╱_______________________________╲ θmin
  *                 2
  * @param {number} numberOfSides
+ * @returns {regions[]}
  */
 const getRegions = (numberOfSides) => {
   const regions = [];
