@@ -1,4 +1,7 @@
+const determineRegion = require('./determineRegion');
+const getRegions = require('./getRegions');
+
 module.exports = {
-  determineRegions: require('./determineRegion'),
-  getRegions: require('./getRegions')
+  determineRegion,
+  getRegions,
 };
