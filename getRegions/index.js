@@ -7,7 +7,7 @@
  * this gives us regions 0, 1, and 2.
  *
  * We can then pass that into determineRegion(p1, p2, regions) and it would
- * return region 0
+ * return region 2
  *                  θmax
  *                 ╱│╲
  *                ╱ │ ╲
@@ -17,7 +17,7 @@
  *            ╱     │     ╲                    │
  *           ╱      │      ╲                   │
  *          ╱       │       ╲                  │
- *     1   ╱        │  θ     ╲ 0               │
+ *     0   ╱        │  θ     ╲ 2               │
  *        ╱      p1 ○_◝_______╲________________│
  *       ╱        ╱   ╲        ╲
  *      ╱      ╱         ╲      ╲
@@ -25,7 +25,7 @@
  *    ╱   ╱                   ╲   ╲
  *   ╱  ╱                       ╲  ╲
  *  ╱_______________________________╲ θmin
- *                 2
+ *                 1
  * @param {number} numberOfSides
  * @returns {regions[]}
  */
