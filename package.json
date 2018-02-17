@@ -1,6 +1,6 @@
 {
   "name": "regional",
-  "version": "0.2.1",
+  "version": "0.2.3",
   "description": "Given two points and a range of regions, determines which region the second point is in with relation to the first",
   "main": "index.js",
   "scripts": {
