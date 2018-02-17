@@ -34,7 +34,6 @@ const getRegions = (numberOfSides) => {
 
   for (let i = 0; i < numberOfSides; i += 1) {
     regions.push({
-      region: i,
       max: (i + 1) * ((2 * Math.PI) / numberOfSides),
       min: i * ((2 * Math.PI) / numberOfSides),
     });
